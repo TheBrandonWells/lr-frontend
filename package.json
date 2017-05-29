@@ -1,0 +1,50 @@
+{
+  "name": "ems-frontend",
+  "version": "0.0.3",
+  "description": "EMS Frontend excercise",
+  "main": "''",
+  "scripts": {
+    "build": "webpack --config webpack.production.config.js --progress --profile --colors",
+    "lint": "eslint --ext js --ext jsx src || exit 0",
+    "node": "node server.js",
+    "webpack-server": "webpack-dev-server --hot --progress --colors",
+    "start": "npm run webpack-server & npm run node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git push -u --force origin master"
+  },
+  "author": "Brandon Wells",
+  "license": "MIT",
+  "homepage": "git push -u --force origin master#readme",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "node-sass": "^4.3.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-edit-inline": "^1.0.8",
+    "react-redux": "^5.0.4",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.6.0",
+    "redux-form": "^6.7.0",
+    "redux-logger": "^3.0.1",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.2",
+    "semantic-ui-react": "^0.68.4",
+    "uuid": "^3.0.1"
+  }
+}

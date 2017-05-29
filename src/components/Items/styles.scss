@@ -1,0 +1,182 @@
+.listContainer {
+  max-width: 70%;
+  margin: 0 auto;
+
+  h2 {
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #6A6E73;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+
+}
+
+.none {
+  font-size: 12px;
+  margin: 40px 10px;
+}
+
+.itemCards {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+  width: 100%;
+  margin-top: 0;
+
+  li {
+    border-bottom: 1px solid #ddd;
+
+    &:nth-child(odd) {
+      background: #fff;
+    }
+
+    &.failing {
+      background: rgba(255, 0, 0, 0.22);
+    }
+
+    .error {
+      color: red;
+      display: block;
+    }
+
+    input.editing {
+      min-width: 10px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      font-size: 15;
+      outline: 0;
+      border: 0;
+      background: #F4F4F4;
+    }
+    .cardContainer {
+      display: flex;
+      padding: 10px;
+
+      .grade {
+        font-size: 20px;
+        display: flex;
+        width: 70px;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .cardHeader {
+        font-size: 14px;
+        font-weight: 700;
+        padding: 0;
+        text-transform: capitalize;
+      }
+
+      .cardInfo {
+        flex-grow: 8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      img {
+        flex: 0;
+        margin: 0 10px 0 0;
+        display: flex;
+        min-width: 50px;
+        min-height: 40px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+      }
+
+
+      .itemTools {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        i {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  form {
+    input {
+      width: 80%;
+      border: 0;
+      margin: 10px 0;
+      height: 18px;
+      font-size: 14px;
+      padding: 0;
+      display: block;
+      background: #eee;
+      padding: 5px;
+    }
+  }
+}
+
+span {
+
+  i {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    color: #407AE5;
+  }
+}
+
+.itemCards form.editForm {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+
+  input {
+    margin-left: 10px;
+    width: 75%;
+    text-indent: 10px;
+    font-size: 14px;
+  }
+
+  label {
+    float: left;
+    margin-right: 10px;
+    padding-top: 5px;
+
+    &:first-child {
+      margin-top: 10px;
+    }
+  }
+
+  button {
+    border: 0;
+    color: #407AE5;
+    background: transparent;
+  }
+}
+
+.missingDate {
+  ul {
+    li {
+      padding: 20px;
+      font-size: 14px;
+    }
+  }
+}
