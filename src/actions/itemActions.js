@@ -42,7 +42,7 @@ export function deleteItem(id){
   }
 }
 
-//Update a current Item passing the new: ID, Title, and Url.
+//Update a current Item passing the new: ID, Name, Grade, and Picture.
 export function updateItem(id, name, grade, picture){
   const dataObject = {
         id,
