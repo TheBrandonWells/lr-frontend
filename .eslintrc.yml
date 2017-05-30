@@ -1,5 +1,8 @@
 ---
   parser: babel-eslint
+  extends:
+    - plugin:react/recommended
+
   env:
     browser: true
     node: true
