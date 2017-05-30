@@ -1,5 +1,5 @@
 import Item from '../src/components/Items/Item';
-import {deleteItem, updateItem} from '../src/actions/itemActions'
+import { deleteItem, updateItem } from '../src/actions/itemActions'
 import React from 'react';
 import { mount } from 'enzyme';
 
