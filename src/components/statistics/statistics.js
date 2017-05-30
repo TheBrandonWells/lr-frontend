@@ -15,7 +15,7 @@ export default class Statistics extends React.Component{
         <ul>
           <li>
             <h3>Lowest Grade:</h3>
-            {lowest !== 'undefined' ?
+            {lowest ?
               <p>{lowest}</p>
             : null}
           </li>

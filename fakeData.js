@@ -1,8 +1,8 @@
 /*global require */
 
-var MakeData = function(){
-  var faker = require('faker');
-  var _     = require('lodash');
+const MakeData = function(){
+  let faker = require('faker');
+  let _     = require('lodash');
 
 
   function calculateGradeLetter(score) {
