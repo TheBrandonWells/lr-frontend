@@ -6,7 +6,7 @@ I used Json Server in order to simulate a REST environment locally.
 2) `cd lr-frontend`
 3) `npm install` to install modules
 4) `npm run start` to run locally
-5) Wait for modules to build and visit at localhost `http://localhost:8888/`
+5) Wait for modules to build and visit at localhost http://localhost:8888/
 
 Each time the server is spun up it creates a new set of students so if you need to reset just do another `npm run start`
 
