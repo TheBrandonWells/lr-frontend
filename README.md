@@ -10,9 +10,11 @@ I used Json Server in order to simulate a REST environment locally.
 
 Each time the server is spun up it creates a new set of students so if you need to reset just do another `npm run start`
 
+Started on some tests available at `npm run test`
+
 http://localhost:3000/students/ to see the JSON data.
 
 Please direct any questions to Brandon@brandonrwells.com
 
 
-![picture]()
+![picture](http://i64.tinypic.com/2ikp5qb.png)

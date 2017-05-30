@@ -9,25 +9,26 @@ export default class Statistics extends React.Component{
   }
 
   render(){
+    const { lowest, highest, avg } = this.props;
     return (
       <div className="statsContainer">
         <ul>
           <li>
             <h3>Lowest Grade:</h3>
-            {this.props.lowest ?
-              <p>{this.props.lowest}</p>
+            {lowest ?
+              <p>{lowest}</p>
             : null}
           </li>
           <li>
             <h3>Highest Grade:</h3>
-            {this.props.highest ?
-              <p>{this.props.highest}</p>
+            {highest ?
+              <p>{highest}</p>
             : null}
           </li>
           <li>
             <h3>Avg Grade:</h3>
-            {this.props.avg ?
-              <p>{this.props.avg}</p>
+            {avg ?
+              <p>{avg}</p>
             : null}
           </li>
         </ul>

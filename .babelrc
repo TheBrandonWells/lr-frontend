@@ -1,4 +1,14 @@
 {
   "presets": ["es2015", "stage-0", "react"],
-  "plugins": ['react-hot-loader/babel', 'react-html-attrs', 'add-module-exports']
+  "plugins": ['react-html-attrs', 'add-module-exports'],
+  "env": {
+    "test": {
+      "presets": ["es2015", "stage-0", "react"],
+      "plugins": [
+        ["import-noop", {
+          "extensions": ["scss", "css"]
+        }]
+      ]
+    }
+  }
 }
