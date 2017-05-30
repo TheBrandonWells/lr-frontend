@@ -17,4 +17,4 @@ http://localhost:3000/students/ to see the JSON data.
 Please direct any questions to Brandon@brandonrwells.com
 
 
-![picture](http://i64.tinypic.com/2ikp5qb.png)
+![picture](http://i.imgur.com/ccVTxLE.png)
