@@ -4,7 +4,6 @@
   "description": "LogRhythm Frontend excercise",
   "main": "''",
   "scripts": {
-    "build": "webpack --config webpack.production.config.js --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0",
     "node": "node server.js",
     "test": "jest --no-cache",
